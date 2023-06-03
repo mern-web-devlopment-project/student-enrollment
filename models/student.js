@@ -5,6 +5,7 @@ const studentSchema=new mongoose.Schema({
   name:{
     type:String,
     required:true
+    
   },
   enrolledDepartment:{
     type:String,
@@ -16,4 +17,4 @@ const studentSchema=new mongoose.Schema({
   }
 });
 
-module.exports=mongoose.model('studentSchema',studentSchema)
+module.exports=mongoose.model('student',studentSchema)
